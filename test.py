@@ -1,3 +1,4 @@
+import sys
 
 def test(file1,file2):
     with open('file1',mode='r',encofing='UTF-8')as fl1 ,open('file1',mode='r',encofing='UTF-8')as fl2:#複数のファイルを読み込む
