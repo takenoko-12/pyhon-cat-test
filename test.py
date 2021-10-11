@@ -6,5 +6,5 @@ def test(file1,file2):
             i += 1 # 1を足すだけの処理
             data=fl2.read(str(i) + '\n')
             print(type(data))
-            fl2.close(str())
+            fl2.close(str()+'\n')
 
