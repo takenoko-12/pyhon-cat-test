@@ -4,7 +4,7 @@ def test(file1,file2):
         for line in fl2: 
             i = int(line.strip())
             i += 1 # 1を足すだけの処理
-            data=fl2.read(str(i))
+            data=fl2.read(str(i) + '\n')
             print(type(data))
             fl2.close(str())
 
