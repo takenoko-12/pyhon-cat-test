@@ -6,4 +6,4 @@ def test(file1,file2):
             data=fl2.read(str(i) + '\n')
             print(type(line))
             fl2.close(str()+'\n')
-
+。
